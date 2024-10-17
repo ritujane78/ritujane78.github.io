@@ -28,95 +28,94 @@ header {
     padding: 1rem 0;
     text-align: center;
 }
-        section {
-            margin: 2rem;
-            flex-grow: 1;
-        }
-        a {
-            color: maroon;
-            text-decoration: underline;
-        }
-        a:hover {
-            color: #800000;
-            text-decoration: underline;
-        }
-        h1 {
-            color: white;
-        }
-        h2 {
-            color: #333;
-            font-size: 2rem;
-            font-weight: bolder;
-        }
-        p {
-            line-height: 1.6;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            background-color: #fff;
-            margin-bottom: 10px;
-            padding: 15px;
-            border: 1px solid #ddd;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background-color: rgba(34, 29, 29, 0.7);
-            color: white;
-            margin-top: auto;
-        }
-        .about-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-        }
-        .about-item {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        }
-        .about-item strong {
-            display: block;
-            margin-bottom: 10px;
-            color: #333;
-        }
-        @media (max-width: 768px) {
-            .about-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-        @media (max-width: 768px) {
-            body {
-                font-size: 0.9em;
-            }
-            section {
-                margin: 1rem;
-            }
-        }
-        .intro-section {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
-        
-        
-        
-        .intro-image img {
-            width: 350px; /* Adjust the size as needed */
-            height: auto;
-            border-radius: 50%; /* For a circular image effect */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            opacity: 0.9;
-        }
-        header a, footer a, header a:hover, footer a:hover {
-            color: white; /* Changes the link color to white */
-            text-decoration: underline; /* Removes the underline from the links (optional) */
-        }
+section {
+    margin: 2rem;
+    flex-grow: 1;
+}
+a {
+    color: maroon;
+    text-decoration: underline;
+}
+a:hover {
+    color: #800000;
+    text-decoration: underline;
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: #333;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+p {
+    line-height: 1.6;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: rgba(34, 29, 29, 0.7);
+    color: white;
+    margin-top: auto;
+}
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.about-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.about-item strong {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+@media (max-width: 768px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9em;
+    }
+    section {
+        margin: 1rem;
+    }
+}
+.intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.intro-image img {
+    width: 350px; 
+    height: auto;
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+}
+header a, footer a, header a:hover, footer a:hover {
+    color: white; 
+    text-decoration: underline; 
+}
 
 
         
