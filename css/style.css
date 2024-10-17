@@ -6,11 +6,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('../images/ritu.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    filter: grayscale(100%);
 }
 
 body::before {
@@ -99,3 +97,26 @@ header {
                 margin: 1rem;
             }
         }
+        .intro-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        
+        
+        .intro-image img {
+            width: 350px; /* Adjust the size as needed */
+            height: auto;
+            border-radius: 50%; /* For a circular image effect */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            opacity: 0.9;
+        }
+        header a, footer a, header a:hover, footer a:hover {
+            color: white; /* Changes the link color to white */
+            text-decoration: underline; /* Removes the underline from the links (optional) */
+        }
+
+
+        
