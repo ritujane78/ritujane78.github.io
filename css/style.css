@@ -37,8 +37,8 @@ a {
     text-decoration: underline;
 }
 a:hover {
-    color: #800000;
-    text-decoration: underline;
+    color: #3e0101;
+    text-decoration: none;
 }
 h1 {
     color: white;
@@ -115,6 +115,18 @@ footer {
 header a, footer a, header a:hover, footer a:hover {
     color: white; 
     text-decoration: underline; 
+}
+.repository {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.repository img{
+    width: 18px;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
 }
 
 
