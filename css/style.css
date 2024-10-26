@@ -37,7 +37,7 @@ a {
     text-decoration: underline;
 }
 a:hover {
-    color: #3e0101;
+    /* color: #3e0101; */
     text-decoration: none;
 }
 h1 {
