@@ -122,6 +122,17 @@ header a, footer a, header a:hover, footer a:hover {
     flex-direction: column;
     gap: 10px;
 }
+/* Add the following CSS to make the video responsive */
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+}
 
 
         
