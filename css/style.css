@@ -122,12 +122,6 @@ header a, footer a, header a:hover, footer a:hover {
     flex-direction: column;
     gap: 10px;
 }
-.frontend img, .backend img{
-    width: 17px;
-    margin-right: 5px;
-    position: relative;
-    top: 5px;
-}
 
 
         
