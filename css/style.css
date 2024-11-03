@@ -146,6 +146,20 @@ header a:hover, footer a:hover {
 mark {
     background-color: rgb(237, 171, 182);
 }
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 10px;
+    margin-top: 5px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #4caf50;
+    width: 50%;
+}
 
 
         
