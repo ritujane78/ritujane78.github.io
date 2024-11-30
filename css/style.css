@@ -140,9 +140,6 @@ header a:hover, footer a:hover {
     width: 100%;
     height: auto;
 }
-mark {
-    background-color: #66BFBF;
-}
 .progress-bar {
     width: 100%;
     background-color: #e0e0e0;
@@ -157,11 +154,18 @@ mark {
     background-color: #66BFBF;
     width: 50%;
 }
-
-h1 {
+h1, h3, .heading{
     color: #66BFBF;
-    font-size: 3.5rem;
     font-family: 'Sacramento', cursive;
+
+}
+h3 {
+    font-weight: bolder;
+    letter-spacing: 4px;
+    line-height: 0px;
+}
+h1{
+    font-size: 3.5rem;
   }
   
 h2 {
@@ -177,13 +181,15 @@ h2 {
   }
 
   .heading {
-    color:   #4bd6d6;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    line-height: 0px;
     font-weight: bolder;
   }
   header h1 {
-    margin-bottom: 0.1rem; /* Reduce the space below "I'm Ritu" */
+    margin-bottom: 0.1rem; 
 }
 header h2 {
-    margin-top: 0; /* Remove extra space above "a programmer" */
+    margin-top: 0; 
 }
         
