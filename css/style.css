@@ -157,17 +157,18 @@ header a:hover, footer a:hover {
     background-color: #66BFBF;
     width: 50%;
 }
-h1, h3, .heading{
+h1, .heading{
     color: #66BFBF;
-    font-family: 'Sacramento', cursive;
 
 }
 h3 {
+    color: #66BFBF;
     font-weight: bolder;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     line-height: 0px;
 }
 h1{
+    font-family: 'Sacramento', cursive;
     font-size: 3.5rem;
   }
   
@@ -185,7 +186,7 @@ h2 {
 
   .heading {
     font-size: 2rem;
-    letter-spacing: 4px;
+    letter-spacing: 1.5px;
     line-height: 0px;
     font-weight: bolder;
     text-wrap: wrap;
