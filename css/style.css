@@ -96,6 +96,10 @@ footer {
     section {
         margin: 1rem;
     }
+    h2.heading{
+        font-size: 1.5rem;
+
+    }
 }
 .intro-section {
     display: flex;
@@ -185,6 +189,7 @@ h2 {
     letter-spacing: 4px;
     line-height: 0px;
     font-weight: bolder;
+    text-wrap: wrap;
   }
   header h1 {
     margin-bottom: 0.1rem; 
