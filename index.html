@@ -190,8 +190,12 @@
 </section>
 
 <footer>
-    <p>&copy; Copyright by Ritu Bafna | <a href="https://github.com/ritujane78" target="_blank">GitHub</a> | <a href="https://linkedin.com/in/ritu-bafna-3765b231/" target="_blank">LinkedIn</a></p>
+    <p>&copy; Copyright <span id="current-year"></span> by Ritu Bafna | <a href="https://github.com/ritujane78" target="_blank">GitHub</a> | <a href="https://linkedin.com/in/ritu-bafna-3765b231/" target="_blank">LinkedIn</a></p>
 </footer>
+<script>
+    const currentYear = new Date().getFullYear();
+    document.getElementById('current-year').textContent = currentYear;
+</script>
 
 </body>
 </html>
