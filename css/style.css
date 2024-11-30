@@ -96,9 +96,13 @@ footer {
     section {
         margin: 1rem;
     }
-    h2.long{
-        font-size: 1.2rem;
+    h2.heading {
+        font-size: 1.3rem;
     }
+    h2.long{
+        font-size: 1rem;
+    }
+
 }
 .intro-section {
     display: flex;
@@ -164,7 +168,7 @@ h1, .heading{
 h3 {
     color: #66BFBF;
     font-weight: bolder;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     line-height: 0px;
 }
 h1{
