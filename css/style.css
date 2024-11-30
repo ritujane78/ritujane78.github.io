@@ -97,10 +97,13 @@ footer {
         margin: 1rem;
     }
     h2.heading {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     h2.long{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
+    }
+    h3{
+        font-size: 0.7rem;
     }
 
 }
@@ -190,7 +193,7 @@ h2 {
 
   .heading {
     font-size: 2rem;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
     line-height: 0px;
     font-weight: bolder;
     text-wrap: wrap;
