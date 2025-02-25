@@ -24,13 +24,13 @@ body::before {
     top: 0;
     z-index: 1000;
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .nav-link {
-    color: #2c7474 !important; /* Change to your preferred color */
+    color: #2c7474 !important; 
 }
 .nav-link:hover {
-    color: #043b3b !important; /* Change hover color */
+    color: #043b3b !important; 
 }   
 header {
     color: white;
