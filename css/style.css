@@ -19,6 +19,12 @@ body::before {
     bottom: 0;
     z-index: -1; 
 }
+.nav-link {
+    color: #3eb4b4 !important; /* Change to your preferred color */
+}
+.nav-link:hover {
+    color: #043b3b !important; /* Change hover color */
+}   
 header {
     color: white;
     text-align: center;
@@ -39,6 +45,7 @@ h2 {
     color:   #66BFBF;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
+    padding-bottom: 20px;
     font-weight: normal;
 }
 h3 {
@@ -46,6 +53,7 @@ h3 {
     font-weight: bolder;
     letter-spacing: 1px;
     line-height: 0px;
+    padding-bottom: 20px;
 }
 header h1 {
     margin-bottom: 0.1rem; 
