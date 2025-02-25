@@ -19,8 +19,15 @@ body::before {
     bottom: 0;
     z-index: -1; 
 }
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    opacity: 0.8;
+}
 .nav-link {
-    color: #3eb4b4 !important; /* Change to your preferred color */
+    color: #2c7474 !important; /* Change to your preferred color */
 }
 .nav-link:hover {
     color: #043b3b !important; /* Change hover color */
