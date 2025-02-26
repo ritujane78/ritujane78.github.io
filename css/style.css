@@ -177,6 +177,9 @@ footer {
     color: 66BFBF;
     margin-top: auto;
 }
+footer img{
+    margin-right: 5px;
+}
 #progName{
     color: #66BFBF;
 }
