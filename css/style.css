@@ -19,12 +19,15 @@ body::before {
     bottom: 0;
     z-index: -1; 
 }
+#about, #certifications, #projects, #ongoing {
+    margin-bottom: 65px;
+}
 .navbar {
     position: sticky;
     top: 0;
     z-index: 1000;
     background-color: white;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .nav-link {
     color: #2c7474 !important; 
