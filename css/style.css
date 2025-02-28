@@ -202,5 +202,8 @@ footer img{
     h3{
         font-size: 0.9rem;
     }
+    footer a{
+        font-size: 10px;
+    }
 
 }
