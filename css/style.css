@@ -26,8 +26,6 @@ body::before {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: white;
-    opacity: 0.8;
 }
 .nav-link {
     color: #2c7474 !important; 
@@ -205,5 +203,10 @@ footer img{
     footer a{
         font-size: 10px;
     }
+    .navbar {
+        background-color: white;
+        opacity: 0.9;
+    }
+
 
 }
