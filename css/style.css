@@ -116,6 +116,15 @@ li {
     margin-bottom: 10px;
     color: #333;
 }
+.about-item span {
+    display: inline-block; /* Allows ::first-letter to work */
+}
+.about-item span::first-letter,b {
+    font-size: 1.2em; /* Bigger first letter */
+    font-weight: bold; /* Bold */
+    color: #333; /* Optional: Different color */
+  }
+
 .intro-section {
     display: flex;
     justify-content: center;
@@ -171,16 +180,33 @@ header a:hover, footer a:hover {
 }
 footer {
     text-align: center;
-    padding: 1rem 0;
-    color: 66BFBF;
     margin-top: auto;
 }
-footer img{
+
+
+footer a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer a img {
     margin-right: 5px;
 }
-#progName{
+
+#progName {
     color: #66BFBF;
+    font-weight: bold;
 }
+
+.footer-links .social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+
 @media (max-width: 768px) {
     body {
         font-size: 0.9em;
