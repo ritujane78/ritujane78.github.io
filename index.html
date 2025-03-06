@@ -13,23 +13,23 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid d-flex justify-content-end"">
+        <div class="container-fluid d-flex justify-content-end">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About Me</a>
+                        <a class="nav-link" href="#about" onclick="closeNavbar()">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#certifications">Certifications</a>
+                        <a class="nav-link" href="#certifications" onclick="closeNavbar()">Certifications</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#ongoing">Ongoing Course(s)</a>
+                        <a class="nav-link" href="#ongoing" onclick="closeNavbar()">Ongoing Course(s)</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#projects" onclick="closeNavbar()">Projects</a>
                     </li>
                 </ul>
             </div>
@@ -89,7 +89,7 @@
 
 <section>
     <div id="certifications"></div>
-    <h2 class="heading long" >Certifications</h2>
+    <h2 class="heading" >Certifications</h2>
     <ul>
         <li>
             <a href="https://www.udemy.com/certificate/UC-6a0655bb-392d-41b9-a91b-3b1cdff66d96/" target="_blank">
@@ -142,7 +142,7 @@
     </ul>
 </section>
 
-<section>
+<section >
     <div id="ongoing"></div>
     <h2 class="heading" >Ongoing Course(s)</h2>
     <ul>
@@ -174,9 +174,10 @@
     </ul>
 </section>
 
-<section>
+<section >
     <div id="projects"></div>
-    <h2 class="heading" >Project Accomplishments</h2>
+    <projects></projects>
+    <h2 class="heading" >Projects</h2>
     <ul>
         <li>
             <strong>Plan Analytics:</strong> in Java: A software solution providing integrated healthcare data through a user-friendly interface.
@@ -264,6 +265,14 @@
     const currentYear = new Date().getFullYear();
     document.getElementById('current-year').textContent = currentYear;
 
+    function closeNavbar() {
+        // Close the navbar on mobile after clicking a link
+        const navbar = document.getElementById('navbarNav');
+        const bootstrapCollapse = new bootstrap.Collapse(navbar, {
+            toggle: false
+        });
+        bootstrapCollapse.hide();
+    }
 </script>
 
 </body>

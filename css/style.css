@@ -233,6 +233,9 @@ footer a img {
         background-color: white;
         opacity: 0.9;
     }
+    .about-item span {
+        font-size: 12px;
+    }
 
 
 }
