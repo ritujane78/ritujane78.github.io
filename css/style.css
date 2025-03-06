@@ -117,12 +117,12 @@ li {
     color: #333;
 }
 .about-item span {
-    display: inline-block; /* Allows ::first-letter to work */
+    display: inline-block; 
 }
 .about-item span::first-letter,b {
-    font-size: 1.2em; /* Bigger first letter */
-    font-weight: bold; /* Bold */
-    color: #333; /* Optional: Different color */
+    font-size: 1.2em; 
+    font-weight: bold; 
+    color: #333; 
   }
 
 .intro-section {
