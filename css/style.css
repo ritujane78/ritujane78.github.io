@@ -156,6 +156,15 @@ header a:hover, footer a:hover {
     position: relative;
     top: 5px;
 }
+.repo-links {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.repo-links img{
+    width: 10px;
+}
 .video-container {
     position: relative;
     width: 100%;
