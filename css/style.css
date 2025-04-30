@@ -153,8 +153,6 @@ header a:hover, footer a:hover {
     width: 17px;
     height: auto;
     margin-right: 5px;
-    position: relative;
-    top: 5px;
 }
 .repo-links {
     display: inline-flex;
