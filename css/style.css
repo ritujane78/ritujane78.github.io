@@ -26,9 +26,11 @@ body::before {
     position: sticky;
     top: 0;
     z-index: 1000;
+    background-color: white;
+    opacity: 0.5;
 }
 .nav-link {
-    color: #2c7474 !important; 
+    color: #028181  !important; 
 }
 .nav-link:hover {
     color: #043b3b !important; 
