@@ -187,6 +187,35 @@ header a:hover, footer a:hover {
     background-color: #66BFBF;
     width: 50%;
 }
+.horizontal-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.link-block {
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 0 1rem;
+    flex: 1;
+}
+.divider {
+    width: 1px;
+    background-color: #ccc;
+}
+
+.center-vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-horizontal-text {
+    text-align: center;
+    margin-top: 1rem;
+    font-style: italic;
+}
 footer {
     text-align: center;
     margin-top: auto;
@@ -214,7 +243,6 @@ footer a img {
     justify-content: center;
     gap: 15px;
 }
-
 
 @media (max-width: 768px) {
     body {
