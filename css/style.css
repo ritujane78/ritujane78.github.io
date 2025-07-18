@@ -19,7 +19,7 @@ body::before {
     bottom: 0;
     z-index: -1; 
 }
-#about, #certifications, #projects, #ongoing {
+#about, #certifications, #projects, #ongoing, #upcoming {
     margin-bottom: 65px;
 }
 .navbar {
