@@ -216,6 +216,10 @@ header a:hover, footer a:hover {
     margin-top: 1rem;
     font-style: italic;
 }
+.subTopic{
+    font-size: 15px;
+    color:#028181;
+}
 footer {
     text-align: center;
     margin-top: auto;
