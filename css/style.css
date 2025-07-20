@@ -217,8 +217,9 @@ header a:hover, footer a:hover {
     font-style: italic;
 }
 .subTopic{
-    font-size: 15px;
+    font-size: 11px;
     color:#028181;
+    font-weight: bolder;
 }
 footer {
     text-align: center;
