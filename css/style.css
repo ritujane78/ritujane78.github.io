@@ -221,6 +221,9 @@ header a:hover, footer a:hover {
     color:#028181;
     font-weight: bolder;
 }
+.inProgress{
+    font-size: 12px;
+}
 footer {
     text-align: center;
     margin-top: auto;
