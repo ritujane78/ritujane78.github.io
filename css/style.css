@@ -224,6 +224,10 @@ header a:hover, footer a:hover {
 .inProgress{
     font-size: 12px;
 }
+
+#vertical a {
+  font-size: 12px;
+}
 footer {
     text-align: center;
     margin-top: auto;
