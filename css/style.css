@@ -271,6 +271,7 @@ footer a img {
         margin: 1rem;
     }
     .about-grid {
+        width: 95%;
         grid-template-columns: 1fr;
     }
     h2.heading {
