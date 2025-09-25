@@ -232,6 +232,12 @@ header a:hover, footer a:hover {
 #vertical a {
   font-size: 12px;
 }
+.microservices {
+    font-size: 12px;
+}
+.microservices a{
+    font-weight: 200;
+}
 footer {
     text-align: center;
     margin-top: auto;
