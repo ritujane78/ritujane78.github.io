@@ -232,6 +232,10 @@ header a:hover, footer a:hover {
 #vertical a {
   font-size: 12px;
 }
+.spanText{
+    font-weight: 100;
+    font-size: 14px;
+}
 .microservices {
     font-size: 12px;
 }
