@@ -1,6 +1,13 @@
  <div id="about"></div>
-<h2 class="heading">About Me</h2>
-<div class="about-grid">
+<h2 class="heading collapsed d-inline-flex align-items-center"
+    data-bs-toggle="collapse"
+    data-bs-target="#about-me-details"
+    aria-expanded="false"
+    aria-controls="about-me-details">
+    About Me
+    <i class="bi bi-chevron-right ms-2 arrow-icon"></i>
+</h2>
+<div class="about-grid collapse" id="about-me-details">
     <div class="about-item">
         <strong>Programming Skills:</strong><br>
         <span>Java </span> (also <span>Spring Boot</span>)<br><br><br>
