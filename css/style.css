@@ -71,12 +71,14 @@ h2 {
     padding-bottom: 20px;
     font-weight: normal;
 }
-h3 {
+h3, h5 {
     color: #66BFBF;
     font-weight: bolder;
     letter-spacing: 1px;
     line-height: 0px;
     padding-bottom: 20px;
+    vertical-align: middle;
+    padding-top: 20px;
 }
 header h1 {
     margin-bottom: 0.1rem; 
