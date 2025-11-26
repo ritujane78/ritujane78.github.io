@@ -201,8 +201,12 @@ header a:hover, footer a:hover {
     width: 100%;
     height: auto;
 }
-.progress-bar {
+.progress {
     margin-top: 5px;
+    height:12px;
+}
+.progress-bar {
+    /* margin-top: 5px; */
     background-color: #66BFBF;
 } 
 .horizontal-container {
