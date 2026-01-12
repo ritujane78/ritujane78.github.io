@@ -255,6 +255,7 @@ header a:hover, footer a:hover {
     font-size: 14px;
 }
 .microservices {
+    font-weight: normal;
     font-size: 12px;
 }
 .microservices a{
