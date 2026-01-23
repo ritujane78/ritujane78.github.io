@@ -243,6 +243,9 @@ header a:hover, footer a:hover {
     color:#028181;
     font-weight: bolder;
 }
+#js-sub-topic{
+    font-size: 11px;
+}
 .inProgress{
     font-size: 12px;
 }
