@@ -82,7 +82,7 @@ h3, h5 {
 }
 .springai{
     color: #66BFBF;
-    font-size: 20px;
+    font-size: 1rem;
     text-decoration: none;
 
 }
@@ -319,8 +319,8 @@ footer a img {
     h2.long{
         font-size: 0.9rem;
     }
-    h3{
-        font-size: 0.9rem;
+    h5{
+        font-size: 1.3rem;
     }
     footer a{
         font-size: 10px;
