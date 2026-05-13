@@ -228,6 +228,9 @@ header a:hover, footer a:hover {
     padding: 0 1rem;
     flex: 1;
 }
+.link-block a {
+    display: block;
+}
 .divider {
     width: 1px;
     background-color: #ccc;
@@ -259,9 +262,11 @@ header a:hover, footer a:hover {
 #vertical a {
   font-size: 12px;
 }
-.spanText{
+.spanText {
+    /* display: block; */
     font-weight: 100;
     font-size: 14px;
+    margin-top: 4px;
 }
 .microservices {
     font-weight: normal;
