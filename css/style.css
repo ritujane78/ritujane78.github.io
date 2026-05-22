@@ -284,6 +284,9 @@ header a:hover, footer a:hover {
 .microservices a{
     font-weight: 200;
 }
+.boldText{
+    font-weight: bold;
+}
 footer {
     text-align: center;
     margin-top: auto;
