@@ -282,6 +282,7 @@ header a:hover, footer a:hover {
 }
 .demo{
     color: var(--primary-teal);
+    font-size: smaller;
 }
 
 #vertical a {
