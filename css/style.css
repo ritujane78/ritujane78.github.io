@@ -120,9 +120,22 @@ a {
     color: black;
     font-weight:  bold;
     text-decoration: underline;
+    position: relative;
 }
 a:hover {
     text-decoration: none;
+}
+a[href^="https"]:hover::after {
+    content: "🔗 Open";
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    background: transparent;
+    color: #333;
+    border-radius: 4px;
+    white-space: nowrap;
 }
 p {
     line-height: 1.6;
